@@ -244,7 +244,8 @@ GEM
       coderay (~> 1.1)
       method_source (~> 1.0)
     public_suffix (5.0.0)
-    puma (3.12.6)
+    puma (4.3.12)
+      nio4r (~> 2.0)
     racc (1.6.0)
     rack (2.2.4)
     rack-test (2.0.2)
@@ -391,7 +392,7 @@ DEPENDENCIES
   mini_magick (~> 4.8)
   net-smtp
   pg
-  puma (~> 3.11)
+  puma (~> 4.3)
   rails (~> 6)
   redcarpet
   rolify
