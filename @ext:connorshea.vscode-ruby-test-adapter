@@ -132,3 +132,5 @@ Tasks: TOP => vscode:minitest:list
 [2022-11-20 15:14:20.133] [INFO] /home/maciej/.config/Code/User/settings.json was saved - checking if this effects /home/maciej/ruby-teraz/knowledge
 [2022-11-20 15:14:20.239] [INFO] Configuration changed
 [2022-11-20 15:14:20.398] [INFO] Configuration changed
+[2022-11-20 15:23:42.671] [INFO] /home/maciej/ruby-teraz/knowledge/config/deploy.rb was saved - checking if this effects /home/maciej/ruby-teraz/knowledge
+[2022-11-20 15:23:42.671] [INFO] Sending autorun event

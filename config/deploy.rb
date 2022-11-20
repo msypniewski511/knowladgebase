@@ -37,12 +37,12 @@ set :keep_releases, 5
 
 # Uncomment the following to require manually verifying the host key before first deploy.
 # set :ssh_options, verify_host_key: :secure
-namespace :config do
-   task :symlink do
-      on roles(:app) do
-        execute :ln, "-s #{shared_path}/master.key #{release_path}/config/master.key"
-      end
-   end
-end
+# namespace :config do
+#    task :symlink do
+#       on roles(:app) do
+#         execute :ln, "-s #{shared_path}/master.key #{release_path}/config/master.key"
+#       end
+#    end
+# end
 
-after 'deploy:symlink:shared', 'config:symlink'
+# after 'deploy:symlink:shared', 'config:symlink'
