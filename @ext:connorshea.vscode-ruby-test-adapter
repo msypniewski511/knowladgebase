@@ -65,3 +65,9 @@ Tasks: TOP => vscode:minitest:list
 [2022-11-20 14:39:37.376] [INFO] /home/maciej/ruby-teraz/knowledge/Capfile was saved - checking if this effects /home/maciej/ruby-teraz/knowledge
 [2022-11-20 14:39:37.376] [INFO] Sending autorun event
 [2022-11-20 14:39:42.273] [INFO] Configuration changed
+[2022-11-20 14:59:08.741] [INFO] /home/maciej/ruby-teraz/knowledge/config/deploy.rb was saved - checking if this effects /home/maciej/ruby-teraz/knowledge
+[2022-11-20 14:59:08.742] [INFO] Sending autorun event
+[2022-11-20 14:59:10.404] [INFO] /home/maciej/ruby-teraz/knowledge/config/deploy.rb was saved - checking if this effects /home/maciej/ruby-teraz/knowledge
+[2022-11-20 14:59:10.404] [INFO] Sending autorun event
+[2022-11-20 14:59:11.546] [INFO] /home/maciej/ruby-teraz/knowledge/config/deploy.rb was saved - checking if this effects /home/maciej/ruby-teraz/knowledge
+[2022-11-20 14:59:11.546] [INFO] Sending autorun event
