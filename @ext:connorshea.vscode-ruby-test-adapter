@@ -1,24 +1,12 @@
-[2022-11-20 14:38:38.740] [INFO] Test Explorer found
-[2022-11-20 14:38:38.740] [INFO] Creating adapter for /home/maciej/ITBootcamp/GLA Nov/udemy-javascript
-[2022-11-20 14:38:38.740] [INFO] Initializing Ruby adapter
-[2022-11-20 14:38:38.740] [INFO] Registering adapter for /home/maciej/ITBootcamp/GLA Nov/udemy-javascript
-[2022-11-20 14:38:38.741] [INFO] Loading Ruby tests...
-[2022-11-20 14:38:38.741] [INFO] Loading Minitest tests...
-[2022-11-20 14:38:38.742] [INFO] Getting a list of Minitest tests in suite with the following command: bundle exec rake -R $EXT_DIR vscode:minitest:list
-[2022-11-20 14:38:38.760] [INFO] Initialization finished
-[2022-11-20 14:38:39.436] [INFO] Test Explorer found
-[2022-11-20 14:38:39.436] [INFO] Creating adapter for /home/maciej/ruby-teraz/knowledge
-[2022-11-20 14:38:39.436] [INFO] Initializing Ruby adapter
-[2022-11-20 14:38:39.436] [INFO] Registering adapter for /home/maciej/ruby-teraz/knowledge
-[2022-11-20 14:38:39.437] [INFO] Loading Ruby tests...
-[2022-11-20 14:38:39.437] [INFO] Loading Minitest tests...
-[2022-11-20 14:38:39.437] [INFO] Getting a list of Minitest tests in suite with the following command: bundle exec rake -R $EXT_DIR vscode:minitest:list
-[2022-11-20 14:38:39.454] [INFO] Initialization finished
-[2022-11-20 14:38:40.266] [ERROR] Error while finding Minitest test suite: Command failed: bundle exec rake -R $EXT_DIR vscode:minitest:list
-Could not locate Gemfile or .bundle/ directory
-
-[2022-11-20 14:38:40.266] [ERROR] Output: 
-[2022-11-20 14:38:47.903] [ERROR] Error while finding Minitest test suite: Command failed: bundle exec rake -R $EXT_DIR vscode:minitest:list
+[2023-02-09 02:49:57.885] [INFO] Test Explorer found
+[2023-02-09 02:49:57.885] [INFO] Creating adapter for /home/maciej/ruby-teraz/knowledge
+[2023-02-09 02:49:57.886] [INFO] Initializing Ruby adapter
+[2023-02-09 02:49:57.886] [INFO] Registering adapter for /home/maciej/ruby-teraz/knowledge
+[2023-02-09 02:49:57.887] [INFO] Loading Ruby tests...
+[2023-02-09 02:49:57.888] [INFO] Loading Minitest tests...
+[2023-02-09 02:49:57.889] [INFO] Getting a list of Minitest tests in suite with the following command: bundle exec rake -R $EXT_DIR vscode:minitest:list
+[2023-02-09 02:49:57.912] [INFO] Initialization finished
+[2023-02-09 02:50:01.827] [ERROR] Error while finding Minitest test suite: Command failed: bundle exec rake -R $EXT_DIR vscode:minitest:list
 rake aborted!
 Gem::LoadError: can't activate capybara (>= 3.26), already activated capybara-2.18.0. Make sure all dependencies are added to Gemfile.
 /home/maciej/.rvm/gems/ruby-3.1.2/gems/bundler-2.3.26/lib/bundler/rubygems_integration.rb:280:in `block (2 levels) in replace_gem'
@@ -39,98 +27,204 @@ Gem::LoadError: can't activate capybara (>= 3.26), already activated capybara-2.
 /home/maciej/.vscode/extensions/connorshea.vscode-ruby-test-adapter-0.9.1/ruby/vscode/minitest/tests.rb:8:in `all'
 /home/maciej/.vscode/extensions/connorshea.vscode-ruby-test-adapter-0.9.1/ruby/vscode/minitest.rb:25:in `list'
 /home/maciej/.vscode/extensions/connorshea.vscode-ruby-test-adapter-0.9.1/ruby/vscode.rake:8:in `block (3 levels) in <main>'
-/home/maciej/.rvm/gems/ruby-3.1.2/gems/bundler-2.3.26/lib/bundler/cli/exec.rb:58:in `load'
-/home/maciej/.rvm/gems/ruby-3.1.2/gems/bundler-2.3.26/lib/bundler/cli/exec.rb:58:in `kernel_load'
-/home/maciej/.rvm/gems/ruby-3.1.2/gems/bundler-2.3.26/lib/bundler/cli/exec.rb:23:in `run'
-/home/maciej/.rvm/gems/ruby-3.1.2/gems/bundler-2.3.26/lib/bundler/cli.rb:486:in `exec'
-/home/maciej/.rvm/gems/ruby-3.1.2/gems/bundler-2.3.26/lib/bundler/vendor/thor/lib/thor/command.rb:27:in `run'
-/home/maciej/.rvm/gems/ruby-3.1.2/gems/bundler-2.3.26/lib/bundler/vendor/thor/lib/thor/invocation.rb:127:in `invoke_command'
-/home/maciej/.rvm/gems/ruby-3.1.2/gems/bundler-2.3.26/lib/bundler/vendor/thor/lib/thor.rb:392:in `dispatch'
-/home/maciej/.rvm/gems/ruby-3.1.2/gems/bundler-2.3.26/lib/bundler/cli.rb:31:in `dispatch'
-/home/maciej/.rvm/gems/ruby-3.1.2/gems/bundler-2.3.26/lib/bundler/vendor/thor/lib/thor/base.rb:485:in `start'
-/home/maciej/.rvm/gems/ruby-3.1.2/gems/bundler-2.3.26/lib/bundler/cli.rb:25:in `start'
-/home/maciej/.rvm/gems/ruby-3.1.2/gems/bundler-2.3.26/exe/bundle:48:in `block in <top (required)>'
-/home/maciej/.rvm/gems/ruby-3.1.2/gems/bundler-2.3.26/lib/bundler/friendly_errors.rb:120:in `with_friendly_errors'
-/home/maciej/.rvm/gems/ruby-3.1.2/gems/bundler-2.3.26/exe/bundle:36:in `<top (required)>'
-/home/maciej/.rvm/gems/ruby-3.1.2/bin/bundle:25:in `load'
-/home/maciej/.rvm/gems/ruby-3.1.2/bin/bundle:25:in `<main>'
 /home/maciej/.rvm/gems/ruby-3.1.2/bin/ruby_executable_hooks:22:in `eval'
 /home/maciej/.rvm/gems/ruby-3.1.2/bin/ruby_executable_hooks:22:in `<main>'
 Tasks: TOP => vscode:minitest:list
 (See full trace by running task with --trace)
 
-[2022-11-20 14:38:47.903] [ERROR] Output: 
-[2022-11-20 14:39:37.347] [INFO] /home/maciej/ruby-teraz/knowledge/Capfile was saved - checking if this effects /home/maciej/ruby-teraz/knowledge
-[2022-11-20 14:39:37.347] [INFO] Sending autorun event
-[2022-11-20 14:39:37.376] [INFO] /home/maciej/ruby-teraz/knowledge/Capfile was saved - checking if this effects /home/maciej/ruby-teraz/knowledge
-[2022-11-20 14:39:37.376] [INFO] Sending autorun event
-[2022-11-20 14:39:42.273] [INFO] Configuration changed
-[2022-11-20 14:59:08.741] [INFO] /home/maciej/ruby-teraz/knowledge/config/deploy.rb was saved - checking if this effects /home/maciej/ruby-teraz/knowledge
-[2022-11-20 14:59:08.742] [INFO] Sending autorun event
-[2022-11-20 14:59:10.404] [INFO] /home/maciej/ruby-teraz/knowledge/config/deploy.rb was saved - checking if this effects /home/maciej/ruby-teraz/knowledge
-[2022-11-20 14:59:10.404] [INFO] Sending autorun event
-[2022-11-20 14:59:11.546] [INFO] /home/maciej/ruby-teraz/knowledge/config/deploy.rb was saved - checking if this effects /home/maciej/ruby-teraz/knowledge
-[2022-11-20 14:59:11.546] [INFO] Sending autorun event
-[2022-11-20 15:02:17.523] [INFO] /home/maciej/ruby-teraz/knowledge/config/deploy.rb was saved - checking if this effects /home/maciej/ruby-teraz/knowledge
-[2022-11-20 15:02:17.523] [INFO] Sending autorun event
-[2022-11-20 15:02:19.553] [INFO] /home/maciej/ruby-teraz/knowledge/config/deploy.rb was saved - checking if this effects /home/maciej/ruby-teraz/knowledge
-[2022-11-20 15:02:19.553] [INFO] Sending autorun event
-[2022-11-20 15:02:21.024] [INFO] /home/maciej/ruby-teraz/knowledge/config/deploy.rb was saved - checking if this effects /home/maciej/ruby-teraz/knowledge
-[2022-11-20 15:02:21.024] [INFO] Sending autorun event
-[2022-11-20 15:02:26.655] [INFO] /home/maciej/ruby-teraz/knowledge/config/deploy.rb was saved - checking if this effects /home/maciej/ruby-teraz/knowledge
-[2022-11-20 15:02:26.655] [INFO] Sending autorun event
-[2022-11-20 15:08:37.569] [INFO] /home/maciej/ruby-teraz/knowledge/app/assets/stylesheets/application.scss was saved - checking if this effects /home/maciej/ruby-teraz/knowledge
-[2022-11-20 15:08:37.569] [INFO] Sending autorun event
-[2022-11-20 15:08:42.979] [INFO] /home/maciej/ruby-teraz/knowledge/app/assets/stylesheets/application.scss was saved - checking if this effects /home/maciej/ruby-teraz/knowledge
-[2022-11-20 15:08:42.979] [INFO] Sending autorun event
-[2022-11-20 15:08:43.138] [INFO] /home/maciej/ruby-teraz/knowledge/app/assets/stylesheets/application.scss was saved - checking if this effects /home/maciej/ruby-teraz/knowledge
-[2022-11-20 15:08:43.138] [INFO] Sending autorun event
-[2022-11-20 15:09:11.832] [INFO] /home/maciej/ruby-teraz/knowledge/app/assets/stylesheets/application.scss was saved - checking if this effects /home/maciej/ruby-teraz/knowledge
-[2022-11-20 15:09:11.832] [INFO] Sending autorun event
-[2022-11-20 15:09:19.475] [INFO] /home/maciej/ruby-teraz/knowledge/app/assets/stylesheets/application.scss was saved - checking if this effects /home/maciej/ruby-teraz/knowledge
-[2022-11-20 15:09:19.475] [INFO] Sending autorun event
-[2022-11-20 15:09:31.426] [INFO] /home/maciej/ruby-teraz/knowledge/app/assets/stylesheets/application.scss was saved - checking if this effects /home/maciej/ruby-teraz/knowledge
-[2022-11-20 15:09:31.426] [INFO] Sending autorun event
-[2022-11-20 15:09:34.753] [INFO] /home/maciej/ruby-teraz/knowledge/app/assets/stylesheets/application.scss was saved - checking if this effects /home/maciej/ruby-teraz/knowledge
-[2022-11-20 15:09:34.753] [INFO] Sending autorun event
-[2022-11-20 15:09:37.200] [INFO] /home/maciej/ruby-teraz/knowledge/app/assets/stylesheets/application.scss was saved - checking if this effects /home/maciej/ruby-teraz/knowledge
-[2022-11-20 15:09:37.200] [INFO] Sending autorun event
-[2022-11-20 15:09:39.477] [INFO] /home/maciej/ruby-teraz/knowledge/app/assets/stylesheets/application.scss was saved - checking if this effects /home/maciej/ruby-teraz/knowledge
-[2022-11-20 15:09:39.477] [INFO] Sending autorun event
-[2022-11-20 15:09:40.736] [INFO] /home/maciej/ruby-teraz/knowledge/app/assets/stylesheets/application.scss was saved - checking if this effects /home/maciej/ruby-teraz/knowledge
-[2022-11-20 15:09:40.736] [INFO] Sending autorun event
-[2022-11-20 15:09:49.419] [INFO] /home/maciej/ruby-teraz/knowledge/app/assets/stylesheets/application.scss was saved - checking if this effects /home/maciej/ruby-teraz/knowledge
-[2022-11-20 15:09:49.419] [INFO] Sending autorun event
-[2022-11-20 15:09:50.822] [INFO] /home/maciej/ruby-teraz/knowledge/app/assets/stylesheets/application.scss was saved - checking if this effects /home/maciej/ruby-teraz/knowledge
-[2022-11-20 15:09:50.823] [INFO] Sending autorun event
-[2022-11-20 15:10:06.696] [INFO] /home/maciej/ruby-teraz/knowledge/app/assets/stylesheets/application.scss was saved - checking if this effects /home/maciej/ruby-teraz/knowledge
-[2022-11-20 15:10:06.696] [INFO] Sending autorun event
-[2022-11-20 15:10:10.651] [INFO] /home/maciej/ruby-teraz/knowledge/app/assets/stylesheets/application.scss was saved - checking if this effects /home/maciej/ruby-teraz/knowledge
-[2022-11-20 15:10:10.651] [INFO] Sending autorun event
-[2022-11-20 15:10:14.330] [INFO] /home/maciej/ruby-teraz/knowledge/app/assets/stylesheets/application.scss was saved - checking if this effects /home/maciej/ruby-teraz/knowledge
-[2022-11-20 15:10:14.330] [INFO] Sending autorun event
-[2022-11-20 15:10:15.943] [INFO] /home/maciej/ruby-teraz/knowledge/app/assets/stylesheets/application.scss was saved - checking if this effects /home/maciej/ruby-teraz/knowledge
-[2022-11-20 15:10:15.943] [INFO] Sending autorun event
-[2022-11-20 15:10:19.083] [INFO] /home/maciej/ruby-teraz/knowledge/app/assets/stylesheets/application.scss was saved - checking if this effects /home/maciej/ruby-teraz/knowledge
-[2022-11-20 15:10:19.083] [INFO] Sending autorun event
-[2022-11-20 15:10:24.493] [INFO] /home/maciej/ruby-teraz/knowledge/app/assets/stylesheets/application.scss was saved - checking if this effects /home/maciej/ruby-teraz/knowledge
-[2022-11-20 15:10:24.494] [INFO] Sending autorun event
-[2022-11-20 15:10:25.747] [INFO] /home/maciej/ruby-teraz/knowledge/app/assets/stylesheets/application.scss was saved - checking if this effects /home/maciej/ruby-teraz/knowledge
-[2022-11-20 15:10:25.747] [INFO] Sending autorun event
-[2022-11-20 15:10:33.113] [INFO] /home/maciej/ruby-teraz/knowledge/app/assets/stylesheets/application.scss was saved - checking if this effects /home/maciej/ruby-teraz/knowledge
-[2022-11-20 15:10:33.113] [INFO] Sending autorun event
-[2022-11-20 15:10:44.740] [INFO] /home/maciej/ruby-teraz/knowledge/app/assets/stylesheets/application.scss was saved - checking if this effects /home/maciej/ruby-teraz/knowledge
-[2022-11-20 15:10:44.740] [INFO] Sending autorun event
-[2022-11-20 15:10:45.577] [INFO] /home/maciej/ruby-teraz/knowledge/app/assets/stylesheets/application.scss was saved - checking if this effects /home/maciej/ruby-teraz/knowledge
-[2022-11-20 15:10:45.577] [INFO] Sending autorun event
-[2022-11-20 15:10:54.438] [INFO] /home/maciej/ruby-teraz/knowledge/app/assets/stylesheets/application.scss was saved - checking if this effects /home/maciej/ruby-teraz/knowledge
-[2022-11-20 15:10:54.438] [INFO] Sending autorun event
-[2022-11-20 15:10:54.677] [INFO] /home/maciej/ruby-teraz/knowledge/app/assets/stylesheets/application.scss was saved - checking if this effects /home/maciej/ruby-teraz/knowledge
-[2022-11-20 15:10:54.678] [INFO] Sending autorun event
-[2022-11-20 15:10:56.121] [INFO] /home/maciej/ruby-teraz/knowledge/app/assets/stylesheets/application.scss was saved - checking if this effects /home/maciej/ruby-teraz/knowledge
-[2022-11-20 15:10:56.121] [INFO] Sending autorun event
-[2022-11-20 15:14:20.133] [INFO] /home/maciej/.config/Code/User/settings.json was saved - checking if this effects /home/maciej/ruby-teraz/knowledge
-[2022-11-20 15:14:20.239] [INFO] Configuration changed
-[2022-11-20 15:14:20.398] [INFO] Configuration changed
-[2022-11-20 15:23:42.671] [INFO] /home/maciej/ruby-teraz/knowledge/config/deploy.rb was saved - checking if this effects /home/maciej/ruby-teraz/knowledge
-[2022-11-20 15:23:42.671] [INFO] Sending autorun event
+[2023-02-09 02:50:01.827] [ERROR] Output: 
+[2023-02-27 09:49:23.805] [INFO] Test Explorer found
+[2023-02-27 09:49:23.806] [INFO] Creating adapter for /home/maciej/ruby-teraz/knowledge
+[2023-02-27 09:49:23.806] [INFO] Initializing Ruby adapter
+[2023-02-27 09:49:23.806] [INFO] Registering adapter for /home/maciej/ruby-teraz/knowledge
+[2023-02-27 09:49:23.808] [INFO] Loading Ruby tests...
+[2023-02-27 09:49:23.809] [INFO] Loading Minitest tests...
+[2023-02-27 09:49:23.810] [INFO] Getting a list of Minitest tests in suite with the following command: bundle exec rake -R $EXT_DIR vscode:minitest:list
+[2023-02-27 09:49:23.826] [INFO] Initialization finished
+[2023-02-27 09:49:24.175] [INFO] Test Explorer found
+[2023-02-27 09:49:24.175] [INFO] Creating adapter for /home/maciej/ruby-teraz/knowledge
+[2023-02-27 09:49:24.175] [INFO] Initializing Ruby adapter
+[2023-02-27 09:49:24.175] [INFO] Registering adapter for /home/maciej/ruby-teraz/knowledge
+[2023-02-27 09:49:24.191] [INFO] Loading Ruby tests...
+[2023-02-27 09:49:24.194] [INFO] Loading Minitest tests...
+[2023-02-27 09:49:24.195] [INFO] Getting a list of Minitest tests in suite with the following command: bundle exec rake -R $EXT_DIR vscode:minitest:list
+[2023-02-27 09:49:24.221] [INFO] Creating adapter for /home/maciej/ruby-teraz/blog
+[2023-02-27 09:49:24.221] [INFO] Initializing Ruby adapter
+[2023-02-27 09:49:24.221] [INFO] Registering adapter for /home/maciej/ruby-teraz/blog
+[2023-02-27 09:49:24.222] [INFO] Loading Ruby tests...
+[2023-02-27 09:49:24.222] [INFO] Loading Minitest tests...
+[2023-02-27 09:49:24.222] [INFO] Getting a list of Minitest tests in suite with the following command: bundle exec rake -R $EXT_DIR vscode:minitest:list
+[2023-02-27 09:49:24.264] [INFO] Initialization finished
+[2023-02-27 09:49:26.577] [ERROR] Error while finding Minitest test suite: Command failed: bundle exec rake -R $EXT_DIR vscode:minitest:list
+Calling `DidYouMean::SPELL_CHECKERS.merge!(error_name => spell_checker)' has been deprecated. Please call `DidYouMean.correct_error(error_name, spell_checker)' instead.
+Calling `DidYouMean::SPELL_CHECKERS.merge!(error_name => spell_checker)' has been deprecated. Please call `DidYouMean.correct_error(error_name, spell_checker)' instead.
+/home/maciej/.rvm/gems/ruby-3.1.2/gems/bundler-2.2.31/lib/bundler/definition.rb:447:in `validate_ruby!': Your Ruby version is 3.1.2, but your Gemfile specified 2.7.0 (Bundler::RubyVersionMismatch)
+	from /home/maciej/.rvm/gems/ruby-3.1.2/gems/bundler-2.2.31/lib/bundler/definition.rb:422:in `validate_runtime!'
+	from /home/maciej/.rvm/gems/ruby-3.1.2/gems/bundler-2.2.31/lib/bundler.rb:144:in `setup'
+	from /home/maciej/.rvm/gems/ruby-3.1.2/gems/bundler-2.2.31/lib/bundler/setup.rb:20:in `block in <top (required)>'
+	from /home/maciej/.rvm/gems/ruby-3.1.2/gems/bundler-2.2.31/lib/bundler/ui/shell.rb:136:in `with_level'
+	from /home/maciej/.rvm/gems/ruby-3.1.2/gems/bundler-2.2.31/lib/bundler/ui/shell.rb:88:in `silence'
+	from /home/maciej/.rvm/gems/ruby-3.1.2/gems/bundler-2.2.31/lib/bundler/setup.rb:20:in `<top (required)>'
+	from <internal:/home/maciej/.rvm/rubies/ruby-3.1.2/lib/ruby/3.1.0/rubygems/core_ext/kernel_require.rb>:85:in `require'
+	from <internal:/home/maciej/.rvm/rubies/ruby-3.1.2/lib/ruby/3.1.0/rubygems/core_ext/kernel_require.rb>:85:in `require'
+
+[2023-02-27 09:49:26.577] [ERROR] Output: 
+[2023-02-27 09:49:27.952] [ERROR] Error while finding Minitest test suite: Command failed: bundle exec rake -R $EXT_DIR vscode:minitest:list
+rake aborted!
+Gem::LoadError: can't activate capybara (>= 3.26), already activated capybara-2.18.0. Make sure all dependencies are added to Gemfile.
+/home/maciej/.rvm/gems/ruby-3.1.2/gems/bundler-2.3.26/lib/bundler/rubygems_integration.rb:280:in `block (2 levels) in replace_gem'
+/home/maciej/.rvm/gems/ruby-3.1.2/gems/actionpack-6.1.7/lib/action_dispatch/system_test_case.rb:3:in `<main>'
+/home/maciej/.rvm/gems/ruby-3.1.2/gems/bootsnap-1.14.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:32:in `require'
+/home/maciej/.rvm/gems/ruby-3.1.2/gems/bootsnap-1.14.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:32:in `require'
+/home/maciej/.rvm/gems/ruby-3.1.2/gems/zeitwerk-2.6.6/lib/zeitwerk/kernel.rb:38:in `require'
+/home/maciej/ruby-teraz/knowledge/test/application_system_test_case.rb:3:in `<main>'
+/home/maciej/.rvm/gems/ruby-3.1.2/gems/bootsnap-1.14.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:32:in `require'
+/home/maciej/.rvm/gems/ruby-3.1.2/gems/bootsnap-1.14.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:32:in `require'
+/home/maciej/.rvm/gems/ruby-3.1.2/gems/zeitwerk-2.6.6/lib/zeitwerk/kernel.rb:38:in `require'
+/home/maciej/ruby-teraz/knowledge/test/system/channels_test.rb:1:in `<main>'
+/home/maciej/.rvm/gems/ruby-3.1.2/gems/bootsnap-1.14.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:32:in `require'
+/home/maciej/.rvm/gems/ruby-3.1.2/gems/bootsnap-1.14.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:32:in `require'
+/home/maciej/.rvm/gems/ruby-3.1.2/gems/zeitwerk-2.6.6/lib/zeitwerk/kernel.rb:38:in `require'
+/home/maciej/.vscode/extensions/connorshea.vscode-ruby-test-adapter-0.9.2/ruby/vscode/minitest/tests.rb:27:in `block in load_files'
+/home/maciej/.vscode/extensions/connorshea.vscode-ruby-test-adapter-0.9.2/ruby/vscode/minitest/tests.rb:27:in `load_files'
+/home/maciej/.vscode/extensions/connorshea.vscode-ruby-test-adapter-0.9.2/ruby/vscode/minitest/tests.rb:8:in `all'
+/home/maciej/.vscode/extensions/connorshea.vscode-ruby-test-adapter-0.9.2/ruby/vscode/minitest.rb:25:in `list'
+/home/maciej/.vscode/extensions/connorshea.vscode-ruby-test-adapter-0.9.2/ruby/vscode.rake:8:in `block (3 levels) in <main>'
+/home/maciej/.rvm/gems/ruby-3.1.2/bin/ruby_executable_hooks:22:in `eval'
+/home/maciej/.rvm/gems/ruby-3.1.2/bin/ruby_executable_hooks:22:in `<main>'
+Tasks: TOP => vscode:minitest:list
+(See full trace by running task with --trace)
+
+[2023-02-27 09:49:28.006] [ERROR] Error while finding Minitest test suite: Command failed: bundle exec rake -R $EXT_DIR vscode:minitest:list
+rake aborted!
+Gem::LoadError: can't activate capybara (>= 3.26), already activated capybara-2.18.0. Make sure all dependencies are added to Gemfile.
+/home/maciej/.rvm/gems/ruby-3.1.2/gems/bundler-2.3.26/lib/bundler/rubygems_integration.rb:280:in `block (2 levels) in replace_gem'
+/home/maciej/.rvm/gems/ruby-3.1.2/gems/actionpack-6.1.7/lib/action_dispatch/system_test_case.rb:3:in `<main>'
+/home/maciej/.rvm/gems/ruby-3.1.2/gems/bootsnap-1.14.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:32:in `require'
+/home/maciej/.rvm/gems/ruby-3.1.2/gems/bootsnap-1.14.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:32:in `require'
+/home/maciej/.rvm/gems/ruby-3.1.2/gems/zeitwerk-2.6.6/lib/zeitwerk/kernel.rb:38:in `require'
+/home/maciej/ruby-teraz/knowledge/test/application_system_test_case.rb:3:in `<main>'
+/home/maciej/.rvm/gems/ruby-3.1.2/gems/bootsnap-1.14.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:32:in `require'
+/home/maciej/.rvm/gems/ruby-3.1.2/gems/bootsnap-1.14.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:32:in `require'
+/home/maciej/.rvm/gems/ruby-3.1.2/gems/zeitwerk-2.6.6/lib/zeitwerk/kernel.rb:38:in `require'
+/home/maciej/ruby-teraz/knowledge/test/system/channels_test.rb:1:in `<main>'
+/home/maciej/.rvm/gems/ruby-3.1.2/gems/bootsnap-1.14.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:32:in `require'
+/home/maciej/.rvm/gems/ruby-3.1.2/gems/bootsnap-1.14.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:32:in `require'
+/home/maciej/.rvm/gems/ruby-3.1.2/gems/zeitwerk-2.6.6/lib/zeitwerk/kernel.rb:38:in `require'
+/home/maciej/.vscode/extensions/connorshea.vscode-ruby-test-adapter-0.9.2/ruby/vscode/minitest/tests.rb:27:in `block in load_files'
+/home/maciej/.vscode/extensions/connorshea.vscode-ruby-test-adapter-0.9.2/ruby/vscode/minitest/tests.rb:27:in `load_files'
+/home/maciej/.vscode/extensions/connorshea.vscode-ruby-test-adapter-0.9.2/ruby/vscode/minitest/tests.rb:8:in `all'
+/home/maciej/.vscode/extensions/connorshea.vscode-ruby-test-adapter-0.9.2/ruby/vscode/minitest.rb:25:in `list'
+/home/maciej/.vscode/extensions/connorshea.vscode-ruby-test-adapter-0.9.2/ruby/vscode.rake:8:in `block (3 levels) in <main>'
+/home/maciej/.rvm/gems/ruby-3.1.2/bin/ruby_executable_hooks:22:in `eval'
+/home/maciej/.rvm/gems/ruby-3.1.2/bin/ruby_executable_hooks:22:in `<main>'
+Tasks: TOP => vscode:minitest:list
+(See full trace by running task with --trace)
+
+[2023-02-27 09:49:28.006] [ERROR] Output: 
+[2023-02-27 09:49:27.953] [ERROR] Output: 
+[2023-02-27 10:28:31.898] [INFO] /home/maciej/ruby-teraz/knowledge/app/assets/stylesheets/application.scss was saved - checking if this effects /home/maciej/ruby-teraz/knowledge
+[2023-02-27 10:28:31.898] [INFO] Sending autorun event
+[2023-02-27 10:28:31.899] [INFO] /home/maciej/ruby-teraz/knowledge/app/assets/stylesheets/application.scss was saved - checking if this effects /home/maciej/ruby-teraz/blog
+[2023-02-27 10:28:33.255] [INFO] /home/maciej/ruby-teraz/knowledge/app/assets/stylesheets/application.scss was saved - checking if this effects /home/maciej/ruby-teraz/knowledge
+[2023-02-27 10:28:33.255] [INFO] Sending autorun event
+[2023-02-27 10:28:33.255] [INFO] /home/maciej/ruby-teraz/knowledge/app/assets/stylesheets/application.scss was saved - checking if this effects /home/maciej/ruby-teraz/blog
+[2023-02-27 10:28:33.986] [INFO] /home/maciej/ruby-teraz/knowledge/app/assets/stylesheets/application.scss was saved - checking if this effects /home/maciej/ruby-teraz/knowledge
+[2023-02-27 10:28:33.987] [INFO] Sending autorun event
+[2023-02-27 10:28:33.987] [INFO] /home/maciej/ruby-teraz/knowledge/app/assets/stylesheets/application.scss was saved - checking if this effects /home/maciej/ruby-teraz/blog
+[2023-02-27 10:29:05.890] [INFO] /home/maciej/ruby-teraz/knowledge/app/assets/stylesheets/application.scss was saved - checking if this effects /home/maciej/ruby-teraz/knowledge
+[2023-02-27 10:29:05.890] [INFO] Sending autorun event
+[2023-02-27 10:29:05.890] [INFO] /home/maciej/ruby-teraz/knowledge/app/assets/stylesheets/application.scss was saved - checking if this effects /home/maciej/ruby-teraz/blog
+[2023-02-27 10:29:07.792] [INFO] /home/maciej/ruby-teraz/knowledge/app/assets/stylesheets/application.scss was saved - checking if this effects /home/maciej/ruby-teraz/knowledge
+[2023-02-27 10:29:07.792] [INFO] Sending autorun event
+[2023-02-27 10:29:07.792] [INFO] /home/maciej/ruby-teraz/knowledge/app/assets/stylesheets/application.scss was saved - checking if this effects /home/maciej/ruby-teraz/blog
+[2023-02-27 10:29:13.848] [INFO] /home/maciej/ruby-teraz/knowledge/app/assets/stylesheets/application.scss was saved - checking if this effects /home/maciej/ruby-teraz/knowledge
+[2023-02-27 10:29:13.848] [INFO] Sending autorun event
+[2023-02-27 10:29:13.849] [INFO] /home/maciej/ruby-teraz/knowledge/app/assets/stylesheets/application.scss was saved - checking if this effects /home/maciej/ruby-teraz/blog
+[2023-02-27 10:29:15.090] [INFO] /home/maciej/ruby-teraz/knowledge/app/assets/stylesheets/application.scss was saved - checking if this effects /home/maciej/ruby-teraz/knowledge
+[2023-02-27 10:29:15.091] [INFO] Sending autorun event
+[2023-02-27 10:29:15.091] [INFO] /home/maciej/ruby-teraz/knowledge/app/assets/stylesheets/application.scss was saved - checking if this effects /home/maciej/ruby-teraz/blog
+[2023-02-27 10:29:19.020] [INFO] /home/maciej/ruby-teraz/knowledge/app/assets/stylesheets/application.scss was saved - checking if this effects /home/maciej/ruby-teraz/knowledge
+[2023-02-27 10:29:19.020] [INFO] Sending autorun event
+[2023-02-27 10:29:19.020] [INFO] /home/maciej/ruby-teraz/knowledge/app/assets/stylesheets/application.scss was saved - checking if this effects /home/maciej/ruby-teraz/blog
+[2023-02-27 10:29:19.121] [INFO] /home/maciej/ruby-teraz/knowledge/app/assets/stylesheets/application.scss was saved - checking if this effects /home/maciej/ruby-teraz/knowledge
+[2023-02-27 10:29:19.121] [INFO] Sending autorun event
+[2023-02-27 10:29:19.121] [INFO] /home/maciej/ruby-teraz/knowledge/app/assets/stylesheets/application.scss was saved - checking if this effects /home/maciej/ruby-teraz/blog
+[2023-02-27 10:29:56.798] [INFO] /home/maciej/ruby-teraz/knowledge/app/assets/stylesheets/application.scss was saved - checking if this effects /home/maciej/ruby-teraz/knowledge
+[2023-02-27 10:29:56.798] [INFO] Sending autorun event
+[2023-02-27 10:29:56.798] [INFO] /home/maciej/ruby-teraz/knowledge/app/assets/stylesheets/application.scss was saved - checking if this effects /home/maciej/ruby-teraz/blog
+[2023-02-27 10:34:38.958] [INFO] /home/maciej/ruby-teraz/knowledge/app/views/discussions/show.html.erb was saved - checking if this effects /home/maciej/ruby-teraz/knowledge
+[2023-02-27 10:34:38.958] [INFO] Sending autorun event
+[2023-02-27 10:34:38.958] [INFO] /home/maciej/ruby-teraz/knowledge/app/views/discussions/show.html.erb was saved - checking if this effects /home/maciej/ruby-teraz/blog
+[2023-02-27 10:34:39.346] [INFO] /home/maciej/ruby-teraz/knowledge/app/views/discussions/show.html.erb was saved - checking if this effects /home/maciej/ruby-teraz/knowledge
+[2023-02-27 10:34:39.347] [INFO] Sending autorun event
+[2023-02-27 10:34:39.347] [INFO] /home/maciej/ruby-teraz/knowledge/app/views/discussions/show.html.erb was saved - checking if this effects /home/maciej/ruby-teraz/blog
+[2023-02-27 10:35:04.147] [INFO] /home/maciej/ruby-teraz/knowledge/app/views/discussions/show.html.erb was saved - checking if this effects /home/maciej/ruby-teraz/knowledge
+[2023-02-27 10:35:04.147] [INFO] Sending autorun event
+[2023-02-27 10:35:04.147] [INFO] /home/maciej/ruby-teraz/knowledge/app/views/discussions/show.html.erb was saved - checking if this effects /home/maciej/ruby-teraz/blog
+[2023-02-27 10:35:05.154] [INFO] /home/maciej/ruby-teraz/knowledge/app/views/discussions/show.html.erb was saved - checking if this effects /home/maciej/ruby-teraz/knowledge
+[2023-02-27 10:35:05.154] [INFO] Sending autorun event
+[2023-02-27 10:35:05.154] [INFO] /home/maciej/ruby-teraz/knowledge/app/views/discussions/show.html.erb was saved - checking if this effects /home/maciej/ruby-teraz/blog
+[2023-02-27 10:35:17.712] [INFO] /home/maciej/ruby-teraz/knowledge/app/views/discussions/show.html.erb was saved - checking if this effects /home/maciej/ruby-teraz/knowledge
+[2023-02-27 10:35:17.713] [INFO] Sending autorun event
+[2023-02-27 10:35:17.713] [INFO] /home/maciej/ruby-teraz/knowledge/app/views/discussions/show.html.erb was saved - checking if this effects /home/maciej/ruby-teraz/blog
+[2023-02-27 10:35:17.784] [INFO] /home/maciej/ruby-teraz/knowledge/app/views/discussions/show.html.erb was saved - checking if this effects /home/maciej/ruby-teraz/knowledge
+[2023-02-27 10:35:17.784] [INFO] Sending autorun event
+[2023-02-27 10:35:17.784] [INFO] /home/maciej/ruby-teraz/knowledge/app/views/discussions/show.html.erb was saved - checking if this effects /home/maciej/ruby-teraz/blog
+[2023-02-27 10:36:01.488] [INFO] /home/maciej/ruby-teraz/knowledge/app/assets/stylesheets/application.scss was saved - checking if this effects /home/maciej/ruby-teraz/knowledge
+[2023-02-27 10:36:01.488] [INFO] Sending autorun event
+[2023-02-27 10:36:01.488] [INFO] /home/maciej/ruby-teraz/knowledge/app/assets/stylesheets/application.scss was saved - checking if this effects /home/maciej/ruby-teraz/blog
+[2023-02-27 10:36:02.983] [INFO] /home/maciej/ruby-teraz/knowledge/app/assets/stylesheets/application.scss was saved - checking if this effects /home/maciej/ruby-teraz/knowledge
+[2023-02-27 10:36:02.983] [INFO] Sending autorun event
+[2023-02-27 10:36:02.983] [INFO] /home/maciej/ruby-teraz/knowledge/app/assets/stylesheets/application.scss was saved - checking if this effects /home/maciej/ruby-teraz/blog
+[2023-02-27 10:36:29.088] [INFO] /home/maciej/ruby-teraz/knowledge/app/views/discussions/show.html.erb was saved - checking if this effects /home/maciej/ruby-teraz/knowledge
+[2023-02-27 10:36:29.088] [INFO] Sending autorun event
+[2023-02-27 10:36:29.088] [INFO] /home/maciej/ruby-teraz/knowledge/app/views/discussions/show.html.erb was saved - checking if this effects /home/maciej/ruby-teraz/blog
+[2023-02-27 10:36:31.591] [INFO] /home/maciej/ruby-teraz/knowledge/app/views/discussions/show.html.erb was saved - checking if this effects /home/maciej/ruby-teraz/knowledge
+[2023-02-27 10:36:31.592] [INFO] Sending autorun event
+[2023-02-27 10:36:31.592] [INFO] /home/maciej/ruby-teraz/knowledge/app/views/discussions/show.html.erb was saved - checking if this effects /home/maciej/ruby-teraz/blog
+[2023-02-27 10:36:35.138] [INFO] /home/maciej/ruby-teraz/knowledge/app/views/discussions/show.html.erb was saved - checking if this effects /home/maciej/ruby-teraz/knowledge
+[2023-02-27 10:36:35.138] [INFO] Sending autorun event
+[2023-02-27 10:36:35.138] [INFO] /home/maciej/ruby-teraz/knowledge/app/views/discussions/show.html.erb was saved - checking if this effects /home/maciej/ruby-teraz/blog
+[2023-02-27 10:36:56.719] [INFO] /home/maciej/ruby-teraz/knowledge/app/views/discussions/show.html.erb was saved - checking if this effects /home/maciej/ruby-teraz/knowledge
+[2023-02-27 10:36:56.719] [INFO] Sending autorun event
+[2023-02-27 10:36:56.719] [INFO] /home/maciej/ruby-teraz/knowledge/app/views/discussions/show.html.erb was saved - checking if this effects /home/maciej/ruby-teraz/blog
+[2023-02-27 10:37:02.640] [INFO] /home/maciej/ruby-teraz/knowledge/app/views/discussions/show.html.erb was saved - checking if this effects /home/maciej/ruby-teraz/knowledge
+[2023-02-27 10:37:02.641] [INFO] Sending autorun event
+[2023-02-27 10:37:02.641] [INFO] /home/maciej/ruby-teraz/knowledge/app/views/discussions/show.html.erb was saved - checking if this effects /home/maciej/ruby-teraz/blog
+[2023-02-27 10:37:07.273] [INFO] /home/maciej/ruby-teraz/knowledge/app/views/discussions/show.html.erb was saved - checking if this effects /home/maciej/ruby-teraz/knowledge
+[2023-02-27 10:37:07.273] [INFO] Sending autorun event
+[2023-02-27 10:37:07.273] [INFO] /home/maciej/ruby-teraz/knowledge/app/views/discussions/show.html.erb was saved - checking if this effects /home/maciej/ruby-teraz/blog
+[2023-02-27 10:37:07.377] [INFO] /home/maciej/ruby-teraz/knowledge/app/views/discussions/show.html.erb was saved - checking if this effects /home/maciej/ruby-teraz/knowledge
+[2023-02-27 10:37:07.377] [INFO] Sending autorun event
+[2023-02-27 10:37:07.377] [INFO] /home/maciej/ruby-teraz/knowledge/app/views/discussions/show.html.erb was saved - checking if this effects /home/maciej/ruby-teraz/blog
+[2023-02-27 10:38:27.161] [INFO] /home/maciej/ruby-teraz/knowledge/app/assets/stylesheets/application.scss was saved - checking if this effects /home/maciej/ruby-teraz/knowledge
+[2023-02-27 10:38:27.161] [INFO] Sending autorun event
+[2023-02-27 10:38:27.161] [INFO] /home/maciej/ruby-teraz/knowledge/app/assets/stylesheets/application.scss was saved - checking if this effects /home/maciej/ruby-teraz/blog
+[2023-02-27 10:38:29.111] [INFO] /home/maciej/ruby-teraz/knowledge/app/assets/stylesheets/application.scss was saved - checking if this effects /home/maciej/ruby-teraz/knowledge
+[2023-02-27 10:38:29.111] [INFO] Sending autorun event
+[2023-02-27 10:38:29.112] [INFO] /home/maciej/ruby-teraz/knowledge/app/assets/stylesheets/application.scss was saved - checking if this effects /home/maciej/ruby-teraz/blog
+[2023-02-27 10:38:34.363] [INFO] /home/maciej/ruby-teraz/knowledge/app/assets/stylesheets/application.scss was saved - checking if this effects /home/maciej/ruby-teraz/knowledge
+[2023-02-27 10:38:34.363] [INFO] Sending autorun event
+[2023-02-27 10:38:34.363] [INFO] /home/maciej/ruby-teraz/knowledge/app/assets/stylesheets/application.scss was saved - checking if this effects /home/maciej/ruby-teraz/blog
+[2023-02-27 10:38:35.580] [INFO] /home/maciej/ruby-teraz/knowledge/app/assets/stylesheets/application.scss was saved - checking if this effects /home/maciej/ruby-teraz/knowledge
+[2023-02-27 10:38:35.581] [INFO] Sending autorun event
+[2023-02-27 10:38:35.581] [INFO] /home/maciej/ruby-teraz/knowledge/app/assets/stylesheets/application.scss was saved - checking if this effects /home/maciej/ruby-teraz/blog
+[2023-02-27 10:38:38.249] [INFO] /home/maciej/ruby-teraz/knowledge/app/assets/stylesheets/application.scss was saved - checking if this effects /home/maciej/ruby-teraz/knowledge
+[2023-02-27 10:38:38.249] [INFO] Sending autorun event
+[2023-02-27 10:38:38.249] [INFO] /home/maciej/ruby-teraz/knowledge/app/assets/stylesheets/application.scss was saved - checking if this effects /home/maciej/ruby-teraz/blog
+[2023-02-27 10:38:41.654] [INFO] /home/maciej/ruby-teraz/knowledge/app/assets/stylesheets/application.scss was saved - checking if this effects /home/maciej/ruby-teraz/knowledge
+[2023-02-27 10:38:41.654] [INFO] Sending autorun event
+[2023-02-27 10:38:41.654] [INFO] /home/maciej/ruby-teraz/knowledge/app/assets/stylesheets/application.scss was saved - checking if this effects /home/maciej/ruby-teraz/blog
+[2023-02-27 10:38:45.208] [INFO] /home/maciej/ruby-teraz/knowledge/app/assets/stylesheets/application.scss was saved - checking if this effects /home/maciej/ruby-teraz/knowledge
+[2023-02-27 10:38:45.208] [INFO] Sending autorun event
+[2023-02-27 10:38:45.208] [INFO] /home/maciej/ruby-teraz/knowledge/app/assets/stylesheets/application.scss was saved - checking if this effects /home/maciej/ruby-teraz/blog
+[2023-02-27 10:38:46.515] [INFO] /home/maciej/ruby-teraz/knowledge/app/assets/stylesheets/application.scss was saved - checking if this effects /home/maciej/ruby-teraz/knowledge
+[2023-02-27 10:38:46.515] [INFO] Sending autorun event
+[2023-02-27 10:38:46.515] [INFO] /home/maciej/ruby-teraz/knowledge/app/assets/stylesheets/application.scss was saved - checking if this effects /home/maciej/ruby-teraz/blog
+[2023-02-27 10:38:49.018] [INFO] /home/maciej/ruby-teraz/knowledge/app/assets/stylesheets/application.scss was saved - checking if this effects /home/maciej/ruby-teraz/knowledge
+[2023-02-27 10:38:49.018] [INFO] Sending autorun event
+[2023-02-27 10:38:49.018] [INFO] /home/maciej/ruby-teraz/knowledge/app/assets/stylesheets/application.scss was saved - checking if this effects /home/maciej/ruby-teraz/blog
+[2023-02-27 10:38:49.543] [INFO] /home/maciej/ruby-teraz/knowledge/app/assets/stylesheets/application.scss was saved - checking if this effects /home/maciej/ruby-teraz/knowledge
+[2023-02-27 10:38:49.543] [INFO] Sending autorun event
+[2023-02-27 10:38:49.543] [INFO] /home/maciej/ruby-teraz/knowledge/app/assets/stylesheets/application.scss was saved - checking if this effects /home/maciej/ruby-teraz/blog

@@ -104,6 +104,10 @@ table {
   position: sticky;
   top: 2rem;
   margin-top: 1rem;
+  .auto_scroll {
+    max-height: 90vh;
+    overflow-y: auto;
+  }
   ul {
     padding-left: 0;
     ul {
